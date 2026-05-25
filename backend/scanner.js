@@ -98,26 +98,34 @@ async function scanCompany(company, config, apiKey, profileName) {
   const keywords       = config.jobCategories.filter(c => c.enabled).flatMap(c => c.keywords);
   const { location, remote, experienceLevel } = config.preferences;
 
-  const prompt = `You are a job search assistant. Search for recently posted job openings (today or last 2 days) at ${company.name} (career page: ${company.careerUrl}).
+  const prompt = `Search ${company.name}'s careers website for open job postings matching the criteria below.
+Use web search to find: site:${new URL(company.careerUrl).hostname} jobs OR visit ${company.careerUrl} directly.
 
-Look for roles matching these categories: ${categoryLabels.join(", ")}
-Keywords to match: ${keywords.join(", ")}
-Preferred location: ${location}
-Include remote: ${remote ? "Yes" : "No"}
-Experience level: ${experienceLevel}
+TARGET ROLES (match any): ${categoryLabels.join(", ")}
+KEYWORDS (match any): ${keywords.join(", ")}
+LOCATION PREFERENCE: ${location} or Remote
+EXPERIENCE: ${experienceLevel}
 
-Return ONLY a JSON array (no markdown, no backticks, no explanation). Each object must have:
-- "title": job title string
+Instructions:
+- Search broadly — include jobs posted in the last 30 days, not just today
+- If you find ANY matching open roles, include them even if the exact post date is unknown
+- Do not filter out jobs just because you are unsure of the date
+- Include up to 10 best matches
+
+CRITICAL: Your ENTIRE response must be a single valid JSON array.
+Start with [ and end with ]. No markdown, no explanation, no backticks.
+
+Each object must have:
+- "title": job title
 - "company": "${company.name}"
-- "location": office location string
-- "remote": "Remote" or "Hybrid" or "On-site"
-- "category": best matching category from [${categoryLabels.join(", ")}]
-- "url": direct link to the job posting if found, otherwise the career page URL
-- "postedDate": ISO date string (today if unknown)
-- "description": 2-3 sentence job summary
+- "location": city/state or "Remote"
+- "remote": "Remote", "Hybrid", or "On-site"
+- "category": best match from [${categoryLabels.join(", ")}]
+- "url": direct job URL or ${company.careerUrl}
+- "postedDate": ISO date if known, otherwise "${new Date().toISOString().slice(0,10)}"
+- "description": 2-3 sentence summary of the role
 
-If no matching jobs found, return exactly: []
-Return ONLY valid JSON, nothing else.`;
+If truly no matching open roles exist: []`;
 
   const response = await fetch("https://api.anthropic.com/v1/messages", {
     method: "POST",
@@ -128,8 +136,8 @@ Return ONLY valid JSON, nothing else.`;
     },
     body: JSON.stringify({
       model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
-      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 3 }],
+      max_tokens: 2048,
+      tools: [{ type: "web_search_20250305", name: "web_search", max_uses: 5 }],
       messages: [{ role: "user", content: prompt }],
     }),
   });
@@ -140,17 +148,82 @@ Return ONLY valid JSON, nothing else.`;
   }
 
   const data = await response.json();
-  const text = data.content?.filter(b => b.type === "text").map(b => b.text).join("").trim();
-  if (!text) return [];
 
-  try {
-    const cleaned = text.replace(/```json|```/g, "").trim();
-    const jobs = JSON.parse(cleaned);
-    return Array.isArray(jobs) ? jobs : [];
-  } catch {
-    log(profileName, `Could not parse JSON from ${company.name}`, "warn");
+  // When web_search tools are used, Claude may return multiple content blocks.
+  // We need to look at tool_result blocks AND text blocks for the final JSON answer.
+  const allText = (data.content || [])
+    .map(b => {
+      if (b.type === "text") return b.text;
+      // tool_result content can be nested
+      if (b.type === "tool_result") {
+        return Array.isArray(b.content)
+          ? b.content.filter(c => c.type === "text").map(c => c.text).join("")
+          : (typeof b.content === "string" ? b.content : "");
+      }
+      return "";
+    })
+    .join("\n")
+    .trim();
+
+  if (!allText) {
+    log(profileName, `Empty response from Claude for ${company.name}`, "warn");
     return [];
   }
+
+  // Strategy 1: strip markdown fences and parse directly
+  try {
+    const cleaned = allText.replace(/```json\s*/gi, "").replace(/```\s*/g, "").trim();
+    // Find the first [ and last ] to isolate the array
+    const start = cleaned.indexOf("[");
+    const end   = cleaned.lastIndexOf("]");
+    if (start !== -1 && end !== -1 && end > start) {
+      const jobs = JSON.parse(cleaned.slice(start, end + 1));
+      if (Array.isArray(jobs)) return jobs;
+    }
+  } catch { /* try next strategy */ }
+
+  // Strategy 2: regex extract JSON array from anywhere in the text
+  try {
+    const match = allText.match(/\[[\s\S]*\]/);
+    if (match) {
+      const jobs = JSON.parse(match[0]);
+      if (Array.isArray(jobs)) return jobs;
+    }
+  } catch { /* try next strategy */ }
+
+  // Strategy 3: ask Claude to re-emit just the JSON (one retry, no web search)
+  try {
+    log(profileName, `Retrying JSON extraction for ${company.name}...`, "warn");
+    const retryResp = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "x-api-key": apiKey, "anthropic-version": "2023-06-01" },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-20250514",
+        max_tokens: 1024,
+        messages: [
+          { role: "user", content: prompt },
+          { role: "assistant", content: allText },
+          { role: "user", content: "Output ONLY the JSON array from your previous response. No explanation, no markdown, no backticks. Start with [ and end with ]." },
+        ],
+      }),
+    });
+    const retryData = await retryResp.json();
+    const retryText = (retryData.content || []).filter(b => b.type === "text").map(b => b.text).join("").trim();
+    const jobs = JSON.parse(retryText);
+    if (Array.isArray(jobs)) return jobs;
+  } catch { /* fall through */ }
+
+  log(profileName, `Could not parse JSON from ${company.name} after 3 strategies`, "warn");
+  // Write raw response to a debug file so you can inspect it
+  const debugDir  = path.join(PROFILES, profileName, "logs");
+  fs.mkdirSync(debugDir, { recursive: true });
+  fs.writeFileSync(
+    path.join(debugDir, `debug_${company.name.replace(/\s+/g, "_")}_${Date.now()}.txt`),
+    allText,
+    "utf8"
+  );
+  log(profileName, `Raw response saved to profiles/${profileName}/logs/ for inspection`, "warn");
+  return [];
 }
 
 // ── Ollama Screening ──────────────────────────────────────────────────────────
@@ -512,6 +585,29 @@ async function sendEmailDigest(summary) {
 
 async function main() {
   const targetProfile = process.argv[2] || null;
+  const testMode      = process.argv.includes("--test");
+  const testCompany   = process.argv[process.argv.indexOf("--test") + 1] || null;
+
+  // ── Test mode: run one company and print raw result ──
+  if (testMode) {
+    const profileName = targetProfile || "you";
+    const profileDir  = path.join(PROFILES, profileName);
+    const config      = readJSON(path.join(profileDir, "config.json"));
+    const apiKey      = getAnthropicKey();
+    const company     = testCompany
+      ? config.companies.find(c => c.name.toLowerCase().includes(testCompany.toLowerCase()))
+      : config.companies.find(c => c.enabled);
+
+    if (!company) { console.log("Company not found."); process.exit(1); }
+
+    console.log(`\n[TEST] Scanning: ${company.name}`);
+    console.log(`[TEST] Career URL: ${company.careerUrl}\n`);
+
+    const jobs = await scanCompany(company, config, apiKey, profileName);
+    console.log(`\n[TEST] Jobs found: ${jobs.length}`);
+    console.log(JSON.stringify(jobs, null, 2));
+    return;
+  }
 
   // Discover profiles
   const profileNames = targetProfile
