@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "name": "Spouse",
+    "email": ""
+  },
+  "companies": [
+    { "id": "1", "name": "Example Company", "careerUrl": "https://careers.example.com", "enabled": false }
+  ],
+  "jobSources": {
+    "linkedin": { "enabled": true, "searchUrl": "https://www.linkedin.com/jobs/search/" },
+    "indeed":   { "enabled": true, "searchUrl": "https://www.indeed.com/jobs" }
+  },
+  "jobCategories": [
+    { "id": "1", "label": "Add roles here", "keywords": ["keyword1", "keyword2"], "enabled": false }
+  ],
+  "resumes": [
+    {
+      "id": "r1",
+      "name": "Primary Resume",
+      "file": "resumes/resume_primary.docx",
+      "keywords": ["add", "matching", "keywords", "here"]
+    }
+  ],
+  "preferences": {
+    "location": "Los Angeles, CA",
+    "remote": true,
+    "experienceLevel": "mid",
+    "atsScoreThreshold": 75,
+    "ollamaModel": "mistral",
+    "emailResults": true,
+    "emailAddress": ""
+  }
+}

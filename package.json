@@ -1,0 +1,24 @@
+{
+  "name": "jobpilot",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "setup": "node backend/set-api-key.js",
+    "scan": "node backend/scanner.js",
+    "scan:me": "node backend/scanner.js you",
+    "scan:spouse": "node backend/scanner.js spouse"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.2"
+  }
+}

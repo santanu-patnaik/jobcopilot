@@ -1,0 +1,67 @@
+{
+  "companies": [
+    {
+      "id": "1",
+      "name": "UnitedHealth Group (UHG)",
+      "careerUrl": "https://careers.unitedhealthgroup.com",
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "name": "Abbott",
+      "careerUrl": "https://www.jobs.abbott/us/en",
+      "enabled": true
+    },
+    {
+      "id": "3",
+      "name": "Medtronic",
+      "careerUrl": "https://www.medtronic.com/en-us/our-company/careers.html",
+      "enabled": true
+    },
+    {
+      "id": "4",
+      "name": "Cognizant",
+      "careerUrl": "https://careers.cognizant.com/us-en/",
+      "enabled": true
+    }
+  ],
+  "jobCategories": [
+    {
+      "id": "1",
+      "label": "Quality Analyst",
+      "keywords": ["quality analyst", "QA analyst", "quality assurance analyst", "quality associate"],
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "label": "Quality Tester",
+      "keywords": ["quality tester", "QA tester", "quality assurance tester", "test analyst"],
+      "enabled": true
+    },
+    {
+      "id": "3",
+      "label": "Manual Tester",
+      "keywords": ["manual tester", "manual testing", "functional tester", "manual QA"],
+      "enabled": true
+    },
+    {
+      "id": "4",
+      "label": "QA Engineer",
+      "keywords": ["QA engineer", "quality assurance engineer", "test engineer", "software tester"],
+      "enabled": true
+    },
+    {
+      "id": "5",
+      "label": "Software Test Analyst",
+      "keywords": ["software test analyst", "test analyst", "testing analyst", "SDET", "software quality"],
+      "enabled": true
+    }
+  ],
+  "preferences": {
+    "location": "Los Angeles, CA",
+    "remote": true,
+    "experienceLevel": "entry-mid",
+    "emailResults": true,
+    "emailAddress": ""
+  }
+}
