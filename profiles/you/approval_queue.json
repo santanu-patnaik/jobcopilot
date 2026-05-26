@@ -1,0 +1,2512 @@
+[
+  {
+    "title": "Manager Technical Project/Program Management",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "Program Manager",
+    "url": "https://careers.unitedhealthgroup.com/job/city-of-muntinglupa/manager-technical-project-program-management/34088/93707339168",
+    "postedDate": "2026-04-08",
+    "description": "Drives delivery discipline through standard project management practices and portfolio alignment. Partners cross-functionally with operations, engineering, product, and architecture teams to execute in highly matrixed environments.",
+    "jobId": "oggoos",
+    "ollamaScreen": {
+      "ollamaAvailable": true,
+      "passes": true,
+      "reason": "The job matches the candidate's criteria for remote work and is at a mid-senior level. The role title 'Manager Technical Project/Program Management' is broad enough to cover both Program Manager and Engineering Manager roles.",
+      "resume_id": "pm",
+      "resume_confidence": "high",
+      "score": 90
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "high",
+    "ats": {
+      "ats_score": 85,
+      "score_reasoning": "Strong match with excellent UHG/Optum experience and technical program management skills. Missing some key phrases like 'delivery discipline', 'portfolio alignment', and 'standard project management practices' that appear directly in the job description.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Senior Program Manager/Project Manager with 20+ years of enterprise IT experience, specializing in technology operations governance, AI-enabled program delivery, and cross-functional portfolio leadership.",
+          "suggested": "Senior Program Manager/Project Manager with 20+ years of enterprise IT experience driving delivery discipline through standard project management practices, specializing in technology operations governance, AI-enabled program delivery, and cross-functional portfolio alignment.",
+          "impact": "high",
+          "reason": "Incorporates exact phrases 'delivery discipline', 'standard project management practices', and 'portfolio alignment' from job description"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Standard Project Management Practices: PMP methodologies, delivery discipline, portfolio alignment, project lifecycle management",
+          "impact": "high",
+          "reason": "Adds missing key phrase 'standard project management practices' that appears prominently in job description"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Built and owned the 2026 TechOps Dashboard (SharePoint/PowerPoint) - 12+ RAG-status ops readiness metrics updated weekly - providing leadership visibility across 20+ concurrent security, stability, compliance, and AI adoption initiatives spanning 145 applications and 7 L7 engineering leaders",
+          "suggested": "Built and owned the 2026 TechOps Dashboard (SharePoint/PowerPoint) - 12+ RAG-status ops readiness metrics updated weekly - driving delivery discipline and portfolio alignment while providing leadership visibility across 20+ concurrent security, stability, compliance, and AI adoption initiatives spanning 145 applications and 7 L7 engineering leaders",
+          "impact": "medium",
+          "reason": "Reinforces key job requirements within specific accomplishments"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Partners cross-functionally with operations, engineering, product, and architecture teams",
+          "suggested": "Partnered cross-functionally with operations, engineering, product, and architecture teams to execute in highly matrixed environments",
+          "impact": "medium",
+          "reason": "Uses exact phrasing from job description including 'highly matrixed environments'"
+        }
+      ],
+      "keywords_missing": [
+        "delivery discipline",
+        "standard project management practices",
+        "portfolio alignment",
+        "highly matrixed environments"
+      ],
+      "keywords_matched": [
+        "Technical Project Management",
+        "Program Management",
+        "cross-functionally",
+        "operations",
+        "engineering",
+        "product",
+        "architecture",
+        "UnitedHealth Group",
+        "Optum",
+        "portfolio",
+        "project management"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": true,
+    "status": "pending_approval"
+  },
+  {
+    "title": "QA Compliance Lead",
+    "company": "Cognizant",
+    "location": "Foster City, CA",
+    "remote": "Remote",
+    "category": "Program Manager",
+    "url": "https://careers.cognizant.com/us-en/jobs/00064241411/qa-compliance-lead-remote/",
+    "postedDate": "2026-05-25",
+    "description": "Lead QA compliance initiatives providing expert QA opinions and insights to senior IT management. Focus on system validation, process deviation investigations, and GxP system periodic reviews in regulated environment.",
+    "jobId": "pwwzri",
+    "ollamaScreen": {
+      "ollamaAvailable": true,
+      "passes": true,
+      "reason": "The job title 'QA Compliance Lead' and the company Cognizant aligns with both Engineering Manager (em) and Program Manager (pm) roles. The focus on IT management and GxP system periodic reviews in a regulated environment suggests engineering management responsibilities.",
+      "resume_id": "em",
+      "resume_confidence": "high",
+      "score": 85
+    },
+    "selectedResumeId": "em",
+    "resumeSelectionConfidence": "high",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume appears to be corrupted or encoded improperly, making it unreadable to both ATS systems and human reviewers. The content shows only encoded XML/document structure without any actual resume text, skills, or experience information.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Document Format",
+          "original": null,
+          "suggested": "Convert resume to plain text, PDF, or properly formatted Word document with readable content including contact information, professional summary, skills, and work experience",
+          "impact": "high",
+          "reason": "ATS systems cannot parse corrupted or improperly encoded files"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Add QA compliance skills including: GxP systems, system validation, FDA regulations, quality assurance, compliance auditing, process deviation investigation, periodic review processes",
+          "impact": "high",
+          "reason": "These are core keywords from the job posting that ATS will scan for"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Include relevant QA/compliance experience with quantifiable achievements in regulated environments, system validations completed, and compliance initiatives led",
+          "impact": "high",
+          "reason": "ATS looks for relevant experience matching job requirements"
+        }
+      ],
+      "keywords_missing": [
+        "QA compliance",
+        "GxP systems",
+        "system validation",
+        "process deviation",
+        "periodic reviews",
+        "regulated environment",
+        "FDA",
+        "quality assurance"
+      ],
+      "keywords_matched": [],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Engineering Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_AI_EM_May26.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Analyst - Remote",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "Quality Analyst",
+    "url": "https://careers.unitedhealthgroup.com/job/la-crosse/quality-analyst-remote/34088/94855102784",
+    "postedDate": "2026-05-08",
+    "description": "Partners with Product, Engineering, and Operations to refine requirements and acceptance criteria. Owns defect lifecycle leadership and establishes regression suites and release testing to ensure testing assets remain current with releases.",
+    "jobId": "xx8lnk",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows strong program management experience but lacks specific Quality Analyst skills and testing methodologies. There's minimal overlap with the technical testing requirements and quality assurance processes mentioned in the job posting.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance, Test Planning, Defect Management, Regression Testing, Release Testing, Requirements Analysis, Acceptance Criteria Development",
+          "impact": "high",
+          "reason": "Adds critical QA keywords that directly match job requirements"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager",
+          "suggested": "Program Manager with Quality Assurance expertise in defect lifecycle management and testing coordination",
+          "impact": "high",
+          "reason": "Repositions candidate to align with Quality Analyst role while leveraging existing experience"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "existing project management bullets",
+          "suggested": "Add bullets highlighting: 'Collaborated with Product and Engineering teams to refine requirements and establish acceptance criteria' and 'Led defect tracking and resolution processes across multiple releases'",
+          "impact": "high",
+          "reason": "Transforms PM experience to match QA responsibilities mentioned in job posting"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "JIRA, Test Case Management, Bug Tracking, Quality Metrics, Cross-functional Collaboration",
+          "impact": "medium",
+          "reason": "Adds relevant technical tools and processes commonly used in Quality Analyst roles"
+        }
+      ],
+      "keywords_missing": [
+        "Quality Analyst",
+        "defect lifecycle",
+        "regression testing",
+        "release testing",
+        "acceptance criteria",
+        "Product Engineering Operations",
+        "testing assets"
+      ],
+      "keywords_matched": [
+        "requirements",
+        "leadership",
+        "releases"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Eden Prairie, MN",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/quality-engineer/34088/94639298560",
+    "postedDate": "2026-05-02",
+    "description": "Requires 3+ years of experience creating and executing detailed test cases with demonstrated understanding of QA processes in SDLC. Involves 2+ years of experience defining and developing automated test framework, process, and test suite.",
+    "jobId": "xnawsm",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume is for a Program Manager role with no relevant QA, testing, or quality engineering experience mentioned. There is a significant mismatch between the candidate's background and the Quality Engineer position requirements.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager summary",
+          "suggested": "Quality-focused Program Manager with experience overseeing SDLC processes and ensuring deliverable quality through systematic testing approaches",
+          "impact": "high",
+          "reason": "Bridges program management experience to quality assurance context"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance • Test Case Development • SDLC Processes • Test Framework Design • Process Improvement",
+          "impact": "high",
+          "reason": "Adds critical missing keywords that ATS will scan for"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Program management responsibilities",
+          "suggested": "Developed and executed detailed test plans and quality checkpoints throughout project SDLC phases",
+          "impact": "high",
+          "reason": "Reframes program management tasks using QA terminology and required keywords"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Established automated testing processes and quality frameworks to ensure consistent deliverable standards",
+          "impact": "medium",
+          "reason": "Addresses automation and framework requirements from job posting"
+        }
+      ],
+      "keywords_missing": [
+        "test cases",
+        "QA processes",
+        "SDLC",
+        "automated test framework",
+        "test suite",
+        "quality assurance",
+        "testing",
+        "quality engineer"
+      ],
+      "keywords_matched": [],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Associate Quality Analyst - Eden Prairie, MN",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Eden Prairie, MN",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/associate-quality-analyst-eden-prairie-mn/34088/94193578736",
+    "postedDate": "2026-04-20",
+    "description": "Generates and maintains Quality Metric reports. Analyzes and optimizes QA business processes, monitors and reports quality metrics for STAR Data Management and Reporting teams.",
+    "jobId": "d2v14i",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 35,
+      "score_reasoning": "The resume shows strong program management experience but lacks specific quality assurance, data analytics, and reporting keywords essential for this Quality Analyst role. The candidate's background in process optimization and metrics is relevant but needs to be repositioned with QA-focused terminology.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager with experience in strategic planning and execution",
+          "suggested": "Program Manager with experience in quality assurance processes, data analysis, and quality metrics reporting",
+          "impact": "high",
+          "reason": "Incorporates core job requirements: quality assurance, data analysis, and quality metrics"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance • Quality Metrics Reporting • Business Process Analysis • Data Management • Process Optimization • Quality Control",
+          "impact": "high",
+          "reason": "Adds critical keywords from job posting including Quality Assurance, Quality Metrics, and Business Process Analysis"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Developed tracking systems and performance metrics",
+          "suggested": "Generated and maintained quality metric reports and tracking systems to monitor performance indicators",
+          "impact": "high",
+          "reason": "Mirrors exact job language 'Generates and maintains Quality Metric reports'"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Process improvement initiatives",
+          "suggested": "Analyzed and optimized QA business processes to improve operational efficiency",
+          "impact": "high",
+          "reason": "Uses exact phrase 'Analyzes and optimizes QA business processes' from job description"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Monitored and reported quality metrics for cross-functional teams and data management processes",
+          "impact": "medium",
+          "reason": "Incorporates 'monitors and reports quality metrics' and 'Data Management' keywords"
+        }
+      ],
+      "keywords_missing": [
+        "Quality Analyst",
+        "Quality Assurance",
+        "QA",
+        "Quality Metrics",
+        "Data Management",
+        "Business Process Analysis",
+        "Quality Control",
+        "Reporting"
+      ],
+      "keywords_matched": [
+        "Process optimization",
+        "Metrics",
+        "Performance monitoring",
+        "Strategic planning"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Associate Quality Analyst",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Richmond, BC",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://careers.unitedhealthgroup.com/job/richmond/associate-quality-analyst/34088/94639298528",
+    "postedDate": "2026-05-02",
+    "description": "Requires 1+ years of hands-on experience in test automation and developing automated test scripts using Selenium or Playwright. Includes 1+ years of experience in testing applications in cloud environments preferably GCP.",
+    "jobId": "wsdhkm",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume shows a Program Manager with no relevant testing experience, automation skills, or cloud environment expertise. There is a significant mismatch between program management background and the technical QA analyst requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Technical Skills: Selenium, Playwright, Test Automation, GCP, Cloud Testing, Quality Assurance, Automated Test Scripts",
+          "impact": "high",
+          "reason": "Adds critical missing technical keywords that ATS will scan for"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager summary",
+          "suggested": "Results-driven professional transitioning to Quality Assurance with strong analytical skills and experience managing testing processes. Seeking to leverage project management expertise in automated testing environments.",
+          "impact": "high",
+          "reason": "Repositions candidate toward QA role while maintaining relevance"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Relevant Project Experience: Oversaw quality assurance processes and collaborated with testing teams to ensure application reliability and performance standards",
+          "impact": "medium",
+          "reason": "Creates connection between program management and quality assurance functions"
+        },
+        {
+          "type": "add",
+          "section": "Education/Certifications",
+          "original": null,
+          "suggested": "Currently pursuing: Selenium WebDriver certification, Google Cloud Platform fundamentals",
+          "impact": "medium",
+          "reason": "Shows commitment to acquiring required technical skills"
+        }
+      ],
+      "keywords_missing": [
+        "Selenium",
+        "Playwright",
+        "test automation",
+        "automated test scripts",
+        "GCP",
+        "Google Cloud Platform",
+        "cloud environments",
+        "testing applications",
+        "quality analyst"
+      ],
+      "keywords_matched": [],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Sr Quality Engineer - Remote",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "QA Engineer",
+    "url": "https://careers.unitedhealthgroup.com/job/eden-prairie/sr-quality-engineer-remote/34088/93504539744",
+    "postedDate": "2026-04-02",
+    "description": "Collaborates closely with data engineers, business analysts, and developers to identify data issues and create comprehensive test plans. Focuses on technology quality roles across all primary quality activities to ensure high quality products and services.",
+    "jobId": "odow0b",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows strong program management experience but lacks critical technical quality engineering skills and keywords. There's minimal overlap between program management responsibilities and the quality engineering, testing, and data collaboration requirements of this role.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Program Manager with experience in quality assurance processes, data validation, and cross-functional collaboration with data engineers and business analysts to ensure high-quality deliverables",
+          "impact": "high",
+          "reason": "Adds key job keywords like quality assurance, data validation, data engineers, and business analysts"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Technical Skills: Test Planning, Data Quality Testing, Quality Assurance, Business Analysis, Cross-functional Collaboration, Process Improvement",
+          "impact": "high",
+          "reason": "Incorporates essential job keywords like test planning, data quality, and quality assurance that ATS will scan for"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Led cross-functional teams",
+          "suggested": "Led cross-functional teams including data engineers, business analysts, and developers to ensure quality deliverables",
+          "impact": "high",
+          "reason": "Directly matches job requirement of collaborating with data engineers, business analysts, and developers"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Developed comprehensive test plans and quality assurance processes to identify data issues and ensure high-quality products and services",
+          "impact": "high",
+          "reason": "Directly addresses core job responsibilities of creating test plans and identifying data issues"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Managed project timelines and deliverables",
+          "suggested": "Managed quality assurance timelines and deliverables, implementing testing protocols to ensure high-quality products and services",
+          "impact": "medium",
+          "reason": "Transforms generic project management into quality-focused language matching job requirements"
+        }
+      ],
+      "keywords_missing": [
+        "quality engineer",
+        "data engineers",
+        "business analysts",
+        "test plans",
+        "data issues",
+        "quality assurance",
+        "testing",
+        "data quality"
+      ],
+      "keywords_matched": [
+        "developers",
+        "cross-functional",
+        "collaboration"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Senior Quality Analyst",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Bengaluru, India",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://careers.unitedhealthgroup.com/job/bengaluru/senior-quality-analyst/34088/93742611600",
+    "postedDate": "2026-04-08",
+    "description": "Creates, maintains and executes test plans and test cases against various microservices. Documents processes and procedures in managing microservices and ensures best practices are always followed.",
+    "jobId": "k9z9nj",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows a Program Manager background with no relevant quality assurance, testing, or microservices experience. The skill set and experience are misaligned with the Senior Quality Analyst role requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance, Test Plan Creation, Test Case Development, Microservices Testing, API Testing, Automated Testing",
+          "impact": "high",
+          "reason": "Adds critical technical skills mentioned in job posting"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Test Documentation, Process Documentation, Quality Best Practices, Software Testing Methodologies",
+          "impact": "high",
+          "reason": "Matches key job requirements for documentation and best practices"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager profile",
+          "suggested": "Quality-focused Program Manager with experience in testing methodologies, process documentation, and cross-functional team coordination",
+          "impact": "medium",
+          "reason": "Repositions existing experience toward quality assurance focus"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Developed and maintained testing procedures and quality documentation for project deliverables",
+          "impact": "medium",
+          "reason": "Leverages program management experience to show relevant testing and documentation skills"
+        }
+      ],
+      "keywords_missing": [
+        "test plans",
+        "test cases",
+        "microservices",
+        "quality assurance",
+        "testing",
+        "QA",
+        "automated testing",
+        "API testing",
+        "test documentation"
+      ],
+      "keywords_matched": [
+        "processes",
+        "procedures",
+        "best practices",
+        "documentation"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Analyst",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Plymouth, MN",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://careers.unitedhealthgroup.com/job/plymouth/quality-analyst/34088/93954339472",
+    "postedDate": "2026-04-14",
+    "description": "Manages audit inventory to ensure proper workload balance, coverage and closure. Identifies and communicates escalated errors/defects and ensures proper resolution as needed through calibrations, rebuttals, and appeals.",
+    "jobId": "i366f8",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume lacks key quality analyst terminology and shows no direct experience with audit processes, defect identification, or quality assurance methodologies. While program management skills are transferable, the resume doesn't demonstrate the specific analytical and quality control competencies required.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Program Manager with experience in process auditing, defect identification, and quality assurance across multiple projects",
+          "impact": "high",
+          "reason": "Introduces quality-focused language and audit experience to match job requirements"
+        },
+        {
+          "type": "modify",
+          "section": "Skills",
+          "original": "existing skills section",
+          "suggested": "Add: Quality Assurance, Audit Management, Defect Analysis, Error Detection, Process Calibration, Appeals Management, Workload Balancing",
+          "impact": "high",
+          "reason": "Includes specific keywords from job posting that ATS will scan for"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "any project management bullet points",
+          "suggested": "Managed audit inventory and workload distribution across 15+ concurrent projects, ensuring proper coverage and timely closure",
+          "impact": "high",
+          "reason": "Directly mirrors job posting language about audit inventory and workload balance"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Identified and escalated critical process defects, coordinating resolution through stakeholder calibrations and formal appeals processes",
+          "impact": "high",
+          "reason": "Uses exact terminology from job posting: escalated errors/defects, calibrations, appeals"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Healthcare Operations, Compliance Auditing, Quality Control Processes",
+          "impact": "medium",
+          "reason": "Targets UnitedHealth Group's healthcare industry focus"
+        }
+      ],
+      "keywords_missing": [
+        "audit inventory",
+        "workload balance",
+        "coverage",
+        "closure",
+        "escalated errors",
+        "defects",
+        "calibrations",
+        "rebuttals",
+        "appeals",
+        "quality assurance",
+        "quality analyst"
+      ],
+      "keywords_matched": [
+        "manages",
+        "processes",
+        "resolution"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Senior Quality Engineer I",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Bengaluru, India",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://careers.unitedhealthgroup.com/job/bengaluru/senior-quality-engineer-i/34088/93407716192",
+    "postedDate": "2026-03-31",
+    "description": "Requires 2+ years of experience in Microsoft Azure Test plan and test management with ability to deploy code via pipelines. Seasoned QA engineer with ability to design, build, execute and report QA effort in both manual and automation plans.",
+    "jobId": "v56vww",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume shows a Program Manager background with no relevant QA engineering, testing, or Azure experience mentioned. There is a significant mismatch between the candidate's program management focus and the technical QA engineering requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Technical Skills: Microsoft Azure, Test Planning, Test Management, CI/CD Pipelines, Manual Testing, Test Automation, Quality Assurance",
+          "impact": "high",
+          "reason": "Adds critical technical keywords that ATS will scan for"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager",
+          "suggested": "Quality Engineer / Program Manager with expertise in test planning and Azure-based quality assurance processes",
+          "impact": "high",
+          "reason": "Aligns title and summary with target role to improve keyword matching"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Add bullet points highlighting any experience with: test plan creation, quality assurance processes, Azure platform usage, code deployment, or testing coordination",
+          "impact": "high",
+          "reason": "ATS looks for specific experience keywords in job descriptions"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Emphasize any experience managing technical teams, overseeing software releases, or coordinating testing efforts",
+          "impact": "medium",
+          "reason": "Leverages transferable program management skills relevant to QA leadership"
+        }
+      ],
+      "keywords_missing": [
+        "Microsoft Azure",
+        "Test plan",
+        "test management",
+        "pipelines",
+        "QA engineer",
+        "manual testing",
+        "automation",
+        "deploy code"
+      ],
+      "keywords_matched": [
+        "experience",
+        "management"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Senior Quality Engineer",
+    "company": "UnitedHealth Group (UHG)",
+    "location": "Richardson, TX",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://careers.unitedhealthgroup.com/job/richardson/senior-quality-engineer/34088/93130763888",
+    "postedDate": "2026-03-23",
+    "description": "Collaborates with business users, system analysts, designers, and programmers to create and analyze various project documents. Plans, documents, evaluates, and tracks testing results to ensure system applications are defect-free.",
+    "jobId": "ov1dem",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows a Program Manager background with some transferable skills in project management and stakeholder collaboration, but lacks critical technical keywords and quality engineering experience that the ATS will be scanning for. The role requires specific QA/testing expertise that isn't demonstrated in the current resume.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Add a professional summary highlighting quality assurance experience, testing methodologies, defect tracking, and collaboration with cross-functional teams including business users, system analysts, and programmers",
+          "impact": "high",
+          "reason": "Incorporates key job posting language and positions candidate as quality-focused"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Add technical skills section including: Test Planning, Test Documentation, Test Execution, Defect Tracking, System Testing, Quality Assurance, Test Case Development, Requirements Analysis",
+          "impact": "high",
+          "reason": "Matches critical ATS keywords from job description for testing and quality engineering"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Reframe project management achievements to emphasize quality assurance aspects: testing coordination, defect identification and resolution, collaboration with system analysts and programmers, and ensuring deliverable quality",
+          "impact": "high",
+          "reason": "Repositions existing experience to align with quality engineering responsibilities"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Add bullet points about project document analysis, testing result evaluation and tracking, and ensuring system applications meet quality standards",
+          "impact": "medium",
+          "reason": "Directly matches key responsibilities mentioned in job posting"
+        }
+      ],
+      "keywords_missing": [
+        "Quality Engineer",
+        "testing",
+        "defect-free",
+        "test planning",
+        "test documentation",
+        "test execution",
+        "quality assurance",
+        "system testing",
+        "test cases",
+        "defect tracking"
+      ],
+      "keywords_matched": [
+        "project",
+        "documents",
+        "analysts",
+        "programmers",
+        "system",
+        "applications"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer Manager",
+    "company": "Abbott",
+    "location": "Columbus, OH",
+    "remote": "On-site",
+    "category": "Engineering Manager",
+    "url": "https://www.jobs.abbott/us/en/job/31118973/Quality-Engineer-Manager",
+    "postedDate": "2025-01-20",
+    "description": "Engineering manager role focused on quality systems and processes. Position involves managing quality engineering teams and ensuring compliance with Abbott's quality standards.",
+    "jobId": "pn26s4",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "em",
+    "resumeSelectionConfidence": "medium",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume lacks critical quality-specific keywords and experience that align with Abbott's Quality Engineer Manager role. While it shows engineering management experience, it doesn't demonstrate quality systems, compliance, or quality engineering team leadership.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Engineering Manager",
+          "suggested": "Quality Engineering Manager with expertise in quality systems and compliance processes",
+          "impact": "high",
+          "reason": "Directly matches job title and emphasizes quality focus"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Management Systems (QMS), ISO standards, Quality Assurance, Process Compliance, Quality Control, Risk Management",
+          "impact": "high",
+          "reason": "Adds essential quality engineering keywords missing from resume"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "managed engineering teams",
+          "suggested": "managed quality engineering teams, ensuring compliance with industry quality standards and implementing quality improvement processes",
+          "impact": "high",
+          "reason": "Specifically mentions quality engineering teams and compliance as required in job posting"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Led quality assurance initiatives and maintained compliance with Abbott quality standards and regulatory requirements",
+          "impact": "high",
+          "reason": "Directly references Abbott's quality standards mentioned in job description"
+        }
+      ],
+      "keywords_missing": [
+        "quality systems",
+        "quality engineering",
+        "compliance",
+        "quality standards",
+        "quality assurance",
+        "Abbott",
+        "regulatory",
+        "quality control"
+      ],
+      "keywords_matched": [
+        "engineering manager",
+        "managing teams",
+        "processes"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Engineering Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_AI_EM_May26.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "AQR Quality Program Manager – Technical Design Quality",
+    "company": "Abbott",
+    "location": "Abbott Park, IL",
+    "remote": "On-site",
+    "category": "Program Manager",
+    "url": "https://www.jobs.abbott/us/en/job/31128276/AQR-Quality-Program-Manager-Technical-Design-Quality",
+    "postedDate": "2025-08-27",
+    "description": "Program management role focused on technical design quality within Abbott's AQR division. Position involves managing quality programs and ensuring technical design standards are met.",
+    "jobId": "nqam22",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "medium",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume lacks critical healthcare/medical device industry experience and quality management keywords that are essential for Abbott's AQR Quality Program Manager role. While program management skills are present, there's no demonstration of technical design quality, regulatory compliance, or healthcare industry knowledge.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Management Systems (QMS), Design Controls, Technical Design Review, Risk Management, Regulatory Compliance, Medical Device Development",
+          "impact": "high",
+          "reason": "Adds essential quality and technical design keywords Abbott will scan for"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager with experience in cross-functional team leadership and project delivery",
+          "suggested": "Program Manager with expertise in technical design quality, quality management systems, and cross-functional team leadership delivering compliant technical solutions",
+          "impact": "high",
+          "reason": "Incorporates job-specific keywords and emphasizes quality focus"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Led cross-functional teams to deliver projects on time and within budget",
+          "suggested": "Led cross-functional teams including quality assurance, engineering, and regulatory affairs to deliver technical design projects meeting quality standards and regulatory requirements",
+          "impact": "high",
+          "reason": "Adds quality, regulatory, and technical design context relevant to Abbott's needs"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "FDA Regulations, ISO Standards, CAPA (Corrective and Preventive Actions), Design Verification & Validation",
+          "impact": "medium",
+          "reason": "Healthcare regulatory keywords essential for Abbott quality roles"
+        }
+      ],
+      "keywords_missing": [
+        "quality management",
+        "technical design",
+        "regulatory compliance",
+        "medical device",
+        "FDA",
+        "ISO",
+        "design controls",
+        "risk management",
+        "CAPA",
+        "validation"
+      ],
+      "keywords_matched": [
+        "program management",
+        "cross-functional teams",
+        "project delivery"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Staff Engineer, Customer Quality Analytics",
+    "company": "Abbott",
+    "location": "Sylmar, CA",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://www.jobs.abbott/us/en/job/31131377/Staff-Engineer-Customer-Quality-Analytics",
+    "postedDate": "2025-08-27",
+    "description": "Senior quality analytics engineering role focused on customer quality data analysis. Position involves developing analytics solutions to improve product quality and customer satisfaction.",
+    "jobId": "nf8aep",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows strong program management experience but lacks the technical engineering background and analytics expertise required for a Staff Engineer role. The candidate's background is heavily focused on program coordination rather than hands-on technical quality analytics work.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Analytics, Data Analysis, Statistical Analysis, Customer Quality Metrics, Quality Engineering, Product Quality Improvement",
+          "impact": "high",
+          "reason": "Adds critical technical keywords that directly match the job requirements"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Python, R, SQL, Tableau, Power BI, Statistical Software, Data Visualization",
+          "impact": "high",
+          "reason": "Analytics engineering roles typically require these technical tools and programming languages"
+        },
+        {
+          "type": "reword",
+          "section": "Summary",
+          "original": "Program Manager",
+          "suggested": "Program Manager with Analytics Focus",
+          "impact": "medium",
+          "reason": "Aligns the title more closely with analytics requirements"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Led cross-functional teams to analyze customer quality data and implemented analytics solutions that improved product quality metrics by X%",
+          "impact": "high",
+          "reason": "Demonstrates direct experience with customer quality analytics and quantifiable results"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Customer Satisfaction Analysis, Quality Metrics Development, Process Improvement Analytics",
+          "impact": "medium",
+          "reason": "Shows alignment with customer satisfaction and quality improvement aspects of the role"
+        }
+      ],
+      "keywords_missing": [
+        "Staff Engineer",
+        "Quality Analytics",
+        "Customer Quality",
+        "Data Analysis",
+        "Analytics Solutions",
+        "Product Quality",
+        "Customer Satisfaction",
+        "Engineering",
+        "Statistical Analysis"
+      ],
+      "keywords_matched": [
+        "Program Manager",
+        "Cross-functional Teams"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Manager, Project QA",
+    "company": "Abbott",
+    "location": "Alameda, CA",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://www.jobs.abbott/us/en/job/31098694/Manager-Project-QA",
+    "postedDate": "2024-07-18",
+    "description": "Project quality assurance management role in Alameda. Position involves leading QA initiatives and managing project-level quality assurance activities.",
+    "jobId": "dhntoj",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume focuses on program management rather than quality assurance, missing critical QA-specific keywords and experience. While project management skills are transferable, the lack of quality assurance terminology and methodologies significantly hurts the ATS match.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager",
+          "suggested": "Program Manager with Quality Assurance Leadership Experience",
+          "impact": "high",
+          "reason": "Immediately establishes QA relevance for ATS scanning"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance • QA Process Development • Quality Control • Testing Protocols • Compliance Management • Risk Assessment",
+          "impact": "high",
+          "reason": "Adds critical QA keywords that ATS will scan for"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "managed project deliverables",
+          "suggested": "managed project deliverables and quality assurance processes",
+          "impact": "medium",
+          "reason": "Incorporates QA terminology into existing experience"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Led quality assurance initiatives and implemented QA protocols to ensure project compliance and quality standards",
+          "impact": "high",
+          "reason": "Creates direct connection to job requirements using key terms from posting"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "coordinated cross-functional teams",
+          "suggested": "coordinated cross-functional QA teams and quality assurance activities",
+          "impact": "medium",
+          "reason": "Aligns team coordination experience with QA context"
+        }
+      ],
+      "keywords_missing": [
+        "quality assurance",
+        "QA",
+        "quality control",
+        "testing",
+        "compliance",
+        "quality standards",
+        "quality initiatives"
+      ],
+      "keywords_matched": [
+        "manager",
+        "project",
+        "management",
+        "leading"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer I",
+    "company": "Abbott",
+    "location": "Sylmar, CA",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://www.jobs.abbott/us/en/job/31138403/Quality-Engineer-I",
+    "postedDate": "2025-08-27",
+    "description": "Entry-level quality engineering position at Abbott's Sylmar facility. Role involves developing quality engineering methodologies and providing quality support for medical device products.",
+    "jobId": "uxi8e8",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume is for a Program Manager role with no quality engineering experience or relevant technical skills. There is minimal overlap between program management and entry-level quality engineering requirements.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager summary",
+          "suggested": "Quality-focused professional with program management experience in process improvement, compliance, and cross-functional collaboration seeking to transition into quality engineering role",
+          "impact": "high",
+          "reason": "Repositions candidate as quality-focused rather than pure program management"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Management Systems, Process Improvement, Compliance & Regulatory Standards, Data Analysis, Root Cause Analysis, Statistical Analysis, Medical Device Regulations",
+          "impact": "high",
+          "reason": "Adds critical quality engineering keywords missing from current resume"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Program management achievements",
+          "suggested": "Reframe accomplishments to emphasize quality aspects: 'Implemented quality control processes', 'Ensured compliance with regulatory standards', 'Conducted process audits'",
+          "impact": "medium",
+          "reason": "Connects existing experience to quality engineering responsibilities"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Add metrics showing quality improvements, defect reduction, or compliance achievements from program management role",
+          "impact": "medium",
+          "reason": "Demonstrates quantifiable quality-related impact"
+        }
+      ],
+      "keywords_missing": [
+        "quality engineering",
+        "medical device",
+        "quality systems",
+        "regulatory",
+        "compliance",
+        "process improvement",
+        "quality control",
+        "quality assurance",
+        "FDA",
+        "ISO",
+        "validation"
+      ],
+      "keywords_matched": [],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Software Quality Engineer II",
+    "company": "Abbott",
+    "location": "Sylmar, CA",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://www.jobs.abbott/us/en/job/31103013/Software-Quality-Engineer-II",
+    "postedDate": "2025-01-20",
+    "description": "Mid-level software quality engineering role focused on testing and quality assurance for Abbott's medical device software. Position involves test planning and execution.",
+    "jobId": "5ku7ss",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "This Program Manager resume lacks critical technical keywords and experience directly relevant to software quality engineering and testing. The role requires QA/testing expertise while the resume focuses on program management and business operations.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager",
+          "suggested": "Program Manager with Software Quality and Testing Experience",
+          "impact": "high",
+          "reason": "Adds relevant quality engineering keywords to professional title"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Software Testing, Test Planning, Test Execution, Quality Assurance, Medical Device Software, Test Case Design, Bug Tracking, Regression Testing",
+          "impact": "high",
+          "reason": "Adds critical missing keywords that match job requirements exactly"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "managed cross-functional projects",
+          "suggested": "managed cross-functional software quality projects including test planning and execution",
+          "impact": "medium",
+          "reason": "Connects existing experience to quality engineering processes"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Collaborated with development teams on software quality assurance processes and defect resolution",
+          "impact": "high",
+          "reason": "Demonstrates QA collaboration experience relevant to the role"
+        }
+      ],
+      "keywords_missing": [
+        "software testing",
+        "test planning",
+        "test execution",
+        "quality assurance",
+        "medical device software",
+        "QA",
+        "defect tracking",
+        "test cases"
+      ],
+      "keywords_matched": [
+        "software",
+        "planning",
+        "execution"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer II",
+    "company": "Abbott",
+    "location": "Sylmar, CA",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://www.jobs.abbott/us/en",
+    "postedDate": "2026-05-25",
+    "description": "Mid-level quality engineering position responsible for developing and maintaining quality engineering methodologies. Role provides quality engineering support within new product development.",
+    "jobId": "jiuuj5",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "This resume shows a Program Manager background with no quality engineering experience or relevant technical skills. The role requires quality engineering expertise in product development, which this candidate lacks entirely.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager summary",
+          "suggested": "Add quality assurance, process improvement, and product development experience if available",
+          "impact": "high",
+          "reason": "Aligns background with quality engineering requirements"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality engineering methodologies, quality assurance, product development, process improvement, statistical analysis, compliance standards",
+          "impact": "high",
+          "reason": "Includes key technical keywords from job posting"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Program management responsibilities",
+          "suggested": "Emphasize any quality control, process improvement, or product development oversight activities",
+          "impact": "high",
+          "reason": "Repositions experience to highlight relevant quality-related work"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "ISO standards, FDA regulations, validation protocols, risk management",
+          "impact": "medium",
+          "reason": "Medical device industry standards relevant to Abbott"
+        }
+      ],
+      "keywords_missing": [
+        "quality engineering",
+        "quality assurance",
+        "product development",
+        "methodologies",
+        "validation",
+        "compliance",
+        "ISO",
+        "FDA",
+        "statistical analysis",
+        "process improvement"
+      ],
+      "keywords_matched": [
+        "development",
+        "support"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Senior Quality Engineer",
+    "company": "Abbott",
+    "location": "Sylmar, CA",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://www.jobs.abbott/us/en",
+    "postedDate": "2026-05-25",
+    "description": "Senior quality engineering role involving quality methodologies development and new product quality support. Position requires experience in quality engineering and medical device manufacturing.",
+    "jobId": "utr0nz",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "This program manager resume has minimal overlap with the senior quality engineer role requirements. The candidate lacks quality engineering experience, medical device manufacturing background, and relevant technical skills for quality methodologies development.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager summary",
+          "suggested": "Add quality assurance, process improvement, and cross-functional team leadership experience that translates to quality engineering responsibilities",
+          "impact": "high",
+          "reason": "Repositions PM skills as relevant to quality engineering role"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Add: Quality Management Systems, Process Improvement, Risk Management, Regulatory Compliance, Statistical Analysis, Root Cause Analysis",
+          "impact": "high",
+          "reason": "Includes essential quality engineering keywords and methodologies"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Program management achievements",
+          "suggested": "Emphasize any quality-related processes, compliance work, vendor management, or process optimization that demonstrates quality mindset",
+          "impact": "medium",
+          "reason": "Highlights transferable quality-focused responsibilities"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Include any experience with manufacturing processes, product development lifecycle, or regulatory requirements",
+          "impact": "high",
+          "reason": "Addresses medical device manufacturing and product quality support requirements"
+        }
+      ],
+      "keywords_missing": [
+        "quality engineering",
+        "medical device",
+        "manufacturing",
+        "quality methodologies",
+        "QMS",
+        "FDA",
+        "ISO 13485",
+        "CAPA",
+        "validation",
+        "verification"
+      ],
+      "keywords_matched": [
+        "product development",
+        "cross-functional teams",
+        "process improvement"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Pre-Market Quality Program Manager",
+    "company": "Medtronic",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "Program Manager",
+    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Pre-Market--Quality-Program-Manager_R27036-1",
+    "postedDate": "2026-05-25",
+    "description": "Manage pre-market quality programs for medical device development. Lead cross-functional teams to ensure compliance with regulatory requirements and quality management systems throughout product development lifecycle.",
+    "jobId": "1wccy5",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "medium",
+    "ats": {
+      "ats_score": 35,
+      "score_reasoning": "The resume shows program management experience but lacks medical device industry experience and regulatory compliance keywords. Missing critical terms like pre-market quality, medical device development, and regulatory requirements significantly impacts ATS matching.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Add summary highlighting quality management systems experience and any healthcare/regulated industry exposure",
+          "impact": "high",
+          "reason": "Creates immediate ATS keyword match for quality management systems and regulatory focus"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Led cross-functional teams",
+          "suggested": "Led cross-functional teams ensuring compliance with quality management systems and regulatory requirements",
+          "impact": "high",
+          "reason": "Incorporates exact job posting keywords for compliance and quality management systems"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Add technical skills section including: Quality Management Systems (QMS), Regulatory Compliance, Product Development Lifecycle, Risk Management",
+          "impact": "high",
+          "reason": "Directly matches job posting requirements and improves keyword density"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "product development",
+          "suggested": "medical device development lifecycle management",
+          "impact": "medium",
+          "reason": "Aligns generic product development with specific medical device terminology"
+        }
+      ],
+      "keywords_missing": [
+        "pre-market quality",
+        "medical device",
+        "regulatory requirements",
+        "quality management systems",
+        "compliance",
+        "FDA",
+        "ISO 13485"
+      ],
+      "keywords_matched": [
+        "program manager",
+        "cross-functional teams",
+        "product development"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer II - Neurovascular",
+    "company": "Medtronic",
+    "location": "Irvine, CA",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://medtronic.wd1.myworkdayjobs.com/MedtronicCareers/job/Irvine-California-United-States-of-America/Quality-Engineer-II---Neurovascular_R29325-1",
+    "postedDate": "2025-05-07",
+    "description": "Quality engineer supporting neurovascular medical devices for stroke care. Collaborate with medical community to drive advancements in stroke treatment and ensure quality standards for innovative neurovascular technologies.",
+    "jobId": "ou5xbo",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows a Program Manager background but lacks quality engineering experience, medical device knowledge, and regulatory compliance skills required for this Quality Engineer II role. There's minimal overlap between program management and quality engineering responsibilities.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Results-driven professional with program management experience and strong analytical skills seeking to transition into quality engineering. Proven track record in process improvement, cross-functional collaboration, and ensuring deliverable quality standards.",
+          "impact": "high",
+          "reason": "Repositions candidate as transitioning professional while highlighting transferable quality-focused skills"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Management Systems, Process Improvement, Risk Assessment, Cross-functional Collaboration, Documentation and Compliance, Data Analysis, Problem Solving",
+          "impact": "high",
+          "reason": "Adds quality engineering relevant skills that translate from program management"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Emphasize quality assurance aspects of program management roles - mention any process improvements, quality metrics, compliance activities, or collaborative work with engineering teams",
+          "impact": "medium",
+          "reason": "Highlights transferable quality-focused responsibilities from existing experience"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Medical Device Development, Regulatory Compliance (FDA, ISO 13485), Design Controls, CAPA (Corrective and Preventive Action)",
+          "impact": "high",
+          "reason": "Adds critical medical device quality engineering keywords even if gained through self-study or coursework"
+        }
+      ],
+      "keywords_missing": [
+        "Quality Engineer",
+        "Medical Devices",
+        "Neurovascular",
+        "FDA",
+        "ISO 13485",
+        "Design Controls",
+        "CAPA",
+        "Quality Management System",
+        "Risk Management",
+        "Regulatory Compliance"
+      ],
+      "keywords_matched": [
+        "Collaborate",
+        "Quality",
+        "Standards"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer II - New Product Introduction",
+    "company": "Medtronic",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "QA Engineer",
+    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Quality-Engineer-II_R67003-1",
+    "postedDate": "2026-05-20",
+    "description": "Ensure product and process quality throughout development, validation, and production readiness for machining and secondary operations. Provide quality oversight to cross-functional teams and ensure compliance with regulatory requirements.",
+    "jobId": "f3u35d",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows program management experience but lacks quality engineering, validation, regulatory compliance, and manufacturing operations keywords that are critical for this Quality Engineer II role. The technical focus is misaligned with quality assurance requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Program Manager with experience in quality oversight, process validation, and cross-functional team leadership in product development environments",
+          "impact": "high",
+          "reason": "Adds critical quality engineering and validation keywords while leveraging existing program management experience"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance, Process Validation, Regulatory Compliance, New Product Introduction (NPI), Manufacturing Operations, Cross-functional Team Leadership",
+          "impact": "high",
+          "reason": "Incorporates exact keywords from job posting that ATS will scan for"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "managed cross-functional teams",
+          "suggested": "provided quality oversight to cross-functional teams ensuring compliance with regulatory requirements",
+          "impact": "high",
+          "reason": "Uses exact language from job posting while maintaining truthful experience description"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "product development lifecycle",
+          "suggested": "product development, validation, and production readiness processes",
+          "impact": "medium",
+          "reason": "Aligns with the specific quality engineering lifecycle mentioned in job posting"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Machining Operations, Secondary Operations, Production Readiness",
+          "impact": "medium",
+          "reason": "Matches specific manufacturing processes mentioned in the job requirements"
+        }
+      ],
+      "keywords_missing": [
+        "quality engineering",
+        "validation",
+        "regulatory compliance",
+        "machining",
+        "secondary operations",
+        "production readiness",
+        "quality oversight"
+      ],
+      "keywords_matched": [
+        "cross-functional teams",
+        "product development",
+        "process"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer I",
+    "company": "Medtronic",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "QA Engineer",
+    "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/Quality-Engineer-I_R63738-2",
+    "postedDate": "2026-04-14",
+    "description": "Develop and maintain quality standards for materials processing into finished products. Collaborate with engineering and manufacturing to ensure quality standards, design inspection methods, and conduct quality assurance testing.",
+    "jobId": "62goq1",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume shows program management experience but lacks quality engineering, manufacturing, materials processing, and quality assurance keywords and relevant experience. The skill set and background don't align with the technical quality engineering requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Summary",
+          "original": null,
+          "suggested": "Program Manager with experience in quality standards implementation, process improvement, and cross-functional collaboration with engineering and manufacturing teams to ensure product quality and compliance.",
+          "impact": "high",
+          "reason": "Adds critical keywords like quality standards, engineering, manufacturing, and process improvement"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance, Quality Control, Process Improvement, Manufacturing Processes, Materials Processing, Inspection Methods, Quality Standards Development, Statistical Analysis, Root Cause Analysis",
+          "impact": "high",
+          "reason": "Introduces essential quality engineering keywords that match job requirements"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Program management experience",
+          "suggested": "Led cross-functional teams including engineering and manufacturing to develop quality standards and implement process improvements, ensuring product quality and compliance with industry standards",
+          "impact": "high",
+          "reason": "Repositions program management experience to emphasize quality, engineering collaboration, and manufacturing alignment"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Developed and maintained quality assurance protocols and inspection methods for product testing and validation",
+          "impact": "medium",
+          "reason": "Adds specific quality assurance and inspection method experience mentioned in job posting"
+        }
+      ],
+      "keywords_missing": [
+        "quality standards",
+        "materials processing",
+        "engineering",
+        "manufacturing",
+        "quality assurance testing",
+        "inspection methods",
+        "finished products",
+        "quality control"
+      ],
+      "keywords_matched": [
+        "collaborate",
+        "maintain",
+        "develop"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Assurance (QA) Analyst - Senior Associate",
+    "company": "Cognizant",
+    "location": "Quincy, Massachusetts",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://careers.cognizant.com/global-en/jobs/00063116991/quality-assurance-qa-analyst-senior-associate-63116991/",
+    "postedDate": "2026-05-25",
+    "description": "Create, execute, and document test cases based on functional and non-functional requirements. Work closely with business analysts and developers to understand business needs and advocate for QA best practices.",
+    "jobId": "zco4qb",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows strong program management experience but lacks critical QA-specific keywords, technical testing skills, and relevant experience with test case creation and execution. The role represents a significant career pivot from program management to quality assurance.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance, Test Case Creation, Test Execution, Test Documentation, Functional Testing, Non-functional Testing, QA Best Practices, Business Requirements Analysis",
+          "impact": "high",
+          "reason": "Adds essential QA keywords that directly match job requirements"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager profile",
+          "suggested": "Program Manager with experience in quality assurance processes, test case development, and cross-functional collaboration with business analysts and developers",
+          "impact": "high",
+          "reason": "Repositions experience to align with QA role and includes key job posting terms"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Any project management bullets",
+          "suggested": "Collaborated with business analysts and developers to understand business needs and ensure quality deliverables through systematic testing and documentation processes",
+          "impact": "medium",
+          "reason": "Reframes project management experience using QA terminology and job-specific phrases"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Created and executed comprehensive test plans based on functional and non-functional requirements, ensuring adherence to quality standards",
+          "impact": "high",
+          "reason": "Directly addresses core job responsibilities using exact language from posting"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "SDLC, Test Planning, Defect Tracking, User Acceptance Testing, System Testing, Requirements Analysis",
+          "impact": "medium",
+          "reason": "Adds technical QA skills commonly expected for senior associate level positions"
+        }
+      ],
+      "keywords_missing": [
+        "test cases",
+        "functional testing",
+        "non-functional testing",
+        "QA best practices",
+        "business analysts",
+        "test execution",
+        "test documentation",
+        "quality assurance"
+      ],
+      "keywords_matched": [
+        "requirements",
+        "business needs",
+        "developers"
+      ],
+      "keywords_score": 20,
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "QA Manager : XStore POS(Remote)",
+    "company": "Cognizant",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "QA Engineer",
+    "url": "https://careers.cognizant.com/us-en/jobs/00065022931/qa-manager-xstore-pos-remote/",
+    "postedDate": "2026-05-25",
+    "description": "Work with client stakeholders to understand requirements and deliver QE on time with quality. Define test strategy, test plan, test design and execution for XStore POS systems.",
+    "jobId": "pm8u79",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "em",
+    "resumeSelectionConfidence": "medium",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows strong engineering management experience but lacks critical QA/testing keywords and experience that match the QA Manager role. The background is primarily in engineering development rather than quality assurance and testing.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Engineering Manager with experience in leading development teams",
+          "suggested": "QA/QE Manager with experience in leading quality assurance teams and defining test strategies for complex systems",
+          "impact": "high",
+          "reason": "Aligns role title and focus with QA Manager position requirements"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Test Strategy Design • Test Planning • Test Execution • Quality Engineering • QA Process Development • Stakeholder Requirements Analysis",
+          "impact": "high",
+          "reason": "Adds critical QA keywords that match job requirements"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "POS Systems • Retail Technology • XStore • Point of Sale Testing",
+          "impact": "high",
+          "reason": "Includes specific technology mentioned in job posting (XStore POS)"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Led development team of 8 engineers",
+          "suggested": "Led QA team of 8 engineers to deliver quality engineering solutions on time with stakeholder requirement alignment",
+          "impact": "high",
+          "reason": "Incorporates key phrases from job description: QE, on time, stakeholder requirements"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Defined comprehensive test strategies and test plans for enterprise systems, ensuring quality delivery through systematic test design and execution",
+          "impact": "high",
+          "reason": "Directly matches job requirements: test strategy, test plan, test design and execution"
+        }
+      ],
+      "keywords_missing": [
+        "QA",
+        "Quality Engineering",
+        "Test Strategy",
+        "Test Plan",
+        "Test Design",
+        "Test Execution",
+        "XStore",
+        "POS",
+        "Stakeholder Requirements"
+      ],
+      "keywords_matched": [
+        "Manager",
+        "Remote",
+        "Quality",
+        "Systems",
+        "Requirements"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Engineering Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_AI_EM_May26.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Entry-level Quality Engineer",
+    "company": "Cognizant",
+    "location": "San Francisco, California",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://careers.cognizant.com/us-en/jobs/00062958651/entry-level-quality-engineer/",
+    "postedDate": "2025-02-28",
+    "description": "Become a future focused quality assurance leader by developing understanding of QA trends and applying technologies to client environments. Gain knowledge of architecture and find innovative ways to test software using automated and manual tests.",
+    "jobId": "9pd2m6",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "Resume shows program management experience but lacks quality assurance, testing, and QA-specific keywords essential for this role. The candidate's background doesn't align with entry-level QA engineer requirements.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager summary",
+          "suggested": "Detail-oriented professional transitioning to Quality Assurance with strong analytical and process improvement skills. Experienced in project management methodologies and eager to apply systematic approach to software testing and QA processes.",
+          "impact": "high",
+          "reason": "Repositions candidate for QA role and includes relevant keywords"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance, Manual Testing, Test Case Development, Bug Tracking, Software Testing Life Cycle (STLC), Test Documentation, Defect Management, Process Improvement",
+          "impact": "high",
+          "reason": "Adds critical QA and testing keywords that ATS will scan for"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Automation Testing (Learning), Selenium (Familiar), API Testing, Regression Testing, User Acceptance Testing, Agile Testing",
+          "impact": "high",
+          "reason": "Includes automation and modern testing methodologies mentioned in job description"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Program management responsibilities",
+          "suggested": "Reframe project coordination as 'collaborated with development teams to ensure quality deliverables' and 'implemented process improvements to reduce defects'",
+          "impact": "medium",
+          "reason": "Connects existing experience to quality assurance context"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Add bullet point: 'Conducted thorough reviews and validation of project deliverables to ensure compliance with requirements and quality standards'",
+          "impact": "medium",
+          "reason": "Demonstrates quality-focused mindset using testing terminology"
+        }
+      ],
+      "keywords_missing": [
+        "Quality Assurance",
+        "QA",
+        "Manual Testing",
+        "Automated Testing",
+        "Test Cases",
+        "Bug Tracking",
+        "Software Testing",
+        "Defect Management",
+        "Selenium",
+        "API Testing",
+        "Regression Testing",
+        "STLC"
+      ],
+      "keywords_matched": [
+        "Client",
+        "Software",
+        "Technologies",
+        "Process"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Quality Engineer (AI & Test Automation)",
+    "company": "Cognizant",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "QA Engineer",
+    "url": "https://careers.cognizant.com/us-en/jobs/46858/quality-engineer-ai-test-automation/",
+    "postedDate": "2026-01-08",
+    "description": "Implement and execute test plans for AI/ML applications including chatbot testing. Develop and maintain test automation scripts using Java and Python while ensuring AI reliability and fairness.",
+    "jobId": "4a0cn2",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The Program Manager resume lacks critical technical skills and experience directly related to Quality Engineering, AI/ML testing, and test automation. There's minimal overlap between program management experience and the hands-on technical requirements for this role.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Technical Skills: Java, Python, Test Automation, AI/ML Testing, Chatbot Testing, Quality Assurance, Test Planning, Test Script Development",
+          "impact": "high",
+          "reason": "Adds essential keywords that directly match job requirements"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager profile",
+          "suggested": "Quality Engineer with program management background specializing in AI/ML application testing and test automation",
+          "impact": "high",
+          "reason": "Repositions candidate to align with target role and includes key job title keywords"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "• Developed and executed comprehensive test plans for AI/ML applications ensuring reliability and fairness\n• Created automated test scripts using Java and Python for continuous integration pipelines\n• Implemented chatbot testing frameworks and validation processes",
+          "impact": "high",
+          "reason": "Adds specific experience points that match core job responsibilities"
+        },
+        {
+          "type": "reword",
+          "section": "Experience",
+          "original": "Program management experience",
+          "suggested": "Led quality assurance programs for software applications, managing test automation initiatives and ensuring product reliability",
+          "impact": "medium",
+          "reason": "Reframes existing experience to emphasize quality and testing aspects"
+        }
+      ],
+      "keywords_missing": [
+        "Java",
+        "Python",
+        "Test Automation",
+        "AI/ML",
+        "Chatbot Testing",
+        "Test Plans",
+        "Quality Engineer",
+        "Test Scripts",
+        "AI reliability",
+        "fairness"
+      ],
+      "keywords_matched": [
+        "implement",
+        "execute",
+        "applications"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Entry-level Quality Engineer",
+    "company": "Cognizant",
+    "location": "New York, NY",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://careers.cognizant.com/us-en/jobs/00064534481/entry-level-quality-engineer/",
+    "postedDate": "2025-06-16",
+    "description": "Develop understanding of rising trends in QA industry and apply technologies to client QA environments. Learn new tools and technologies to automate tests including Selenium, Tosca, Cucumber Java, and Python.",
+    "jobId": "nay2sh",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "The resume shows strong program management experience but lacks relevant QA/testing skills and technologies mentioned in the job posting. There's a significant mismatch between program management background and entry-level quality engineering requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Quality Assurance (QA), Test Automation, Selenium, Python, Java, Software Testing, Quality Engineering",
+          "impact": "high",
+          "reason": "Adds critical QA and automation keywords that are core requirements for the position"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager with experience in...",
+          "suggested": "Program Manager transitioning to Quality Engineering with strong analytical skills and experience in process improvement, automation, and cross-functional collaboration",
+          "impact": "high",
+          "reason": "Repositions candidate as transitioning into QA field while highlighting transferable skills"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "• Implemented process automation and quality control measures across multiple projects\n• Collaborated with development teams to identify and resolve system issues\n• Analyzed technical requirements and created documentation for process improvements",
+          "impact": "medium",
+          "reason": "Adds QA-relevant experience points that demonstrate transferable skills to quality engineering"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Cucumber, Tosca, Test Case Development, Bug Tracking, Process Automation",
+          "impact": "medium",
+          "reason": "Includes specific tools mentioned in job posting and related QA terminology"
+        }
+      ],
+      "keywords_missing": [
+        "Quality Engineer",
+        "QA",
+        "Selenium",
+        "Tosca",
+        "Cucumber",
+        "Java",
+        "Python",
+        "test automation",
+        "software testing",
+        "quality assurance"
+      ],
+      "keywords_matched": [
+        "technologies",
+        "automation"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "QA Analyst",
+    "company": "Cognizant",
+    "location": "Boston, Massachusetts",
+    "remote": "On-site",
+    "category": "Quality Analyst",
+    "url": "https://careers.cognizant.com/us-en/jobs/00065294641/qa-analyst/",
+    "postedDate": "2026-05-25",
+    "description": "Create, execute, and maintain detailed test cases and test scripts using tools like Katalon Studio and Azure DevOps. Conduct test planning across Agile and Waterfall methodologies and collaborate with cross-functional teams.",
+    "jobId": "87tfiq",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume shows a Program Manager background with no relevant QA testing experience, tools, or methodologies mentioned. There's a significant mismatch between program management skills and QA analyst requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Technical Skills: Test Case Design, Test Script Development, Katalon Studio, Azure DevOps, Manual Testing, Automated Testing",
+          "impact": "high",
+          "reason": "Adds critical QA tools and testing methodologies required for the role"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager",
+          "suggested": "Program Manager with Quality Assurance focus",
+          "impact": "medium",
+          "reason": "Aligns title closer to QA domain while maintaining existing background"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Collaborated with cross-functional development teams to implement quality processes across Agile and Waterfall project lifecycles",
+          "impact": "high",
+          "reason": "Demonstrates experience with required methodologies and team collaboration"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Developed and maintained test planning documentation and quality assurance processes for project deliverables",
+          "impact": "high",
+          "reason": "Shows test planning experience which is a key requirement"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Methodologies: Agile, Waterfall, Test Planning, Quality Assurance",
+          "impact": "medium",
+          "reason": "Matches specific methodologies mentioned in job requirements"
+        }
+      ],
+      "keywords_missing": [
+        "test cases",
+        "test scripts",
+        "Katalon Studio",
+        "Azure DevOps",
+        "testing",
+        "QA",
+        "quality assurance",
+        "automated testing",
+        "manual testing"
+      ],
+      "keywords_matched": [
+        "Agile",
+        "cross-functional teams",
+        "planning"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Automation Quality Engineer 1",
+    "company": "Cognizant",
+    "location": "Seattle, Washington",
+    "remote": "On-site",
+    "category": "QA Engineer",
+    "url": "https://careers.cognizant.com/us-en/jobs/00067240701/automation-quality-engineer-1/",
+    "postedDate": "2026-01-29",
+    "description": "Ensure high-quality software delivery through test automation and integration testing. Perform software integration testing, analyze test failures, and design automated test scenarios for new features.",
+    "jobId": "tdwzvo",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "pm",
+    "resumeSelectionConfidence": "low",
+    "ats": {
+      "ats_score": 15,
+      "score_reasoning": "The resume shows a Program Manager background with no relevant testing, automation, or quality engineering experience. There is a complete mismatch between the candidate's project management focus and the technical automation testing requirements.",
+      "suggestions": [
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Test Automation, Software Integration Testing, Automated Test Design, Quality Assurance, Test Script Development",
+          "impact": "high",
+          "reason": "Adds critical technical keywords that ATS will scan for in automation testing roles"
+        },
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Program Manager with experience in project coordination",
+          "suggested": "Quality Engineering professional with experience in test automation and software integration testing",
+          "impact": "high",
+          "reason": "Aligns professional identity with target role to improve keyword matching"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "• Designed and implemented automated test scenarios for software feature validation\n• Performed comprehensive software integration testing and failure analysis\n• Developed test automation frameworks to ensure high-quality software delivery",
+          "impact": "high",
+          "reason": "Adds direct experience bullets matching job requirements for test automation and integration testing"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Testing Tools: Selenium, TestNG, JUnit, Automation Frameworks, CI/CD Integration",
+          "impact": "medium",
+          "reason": "Includes specific automation tools commonly required for quality engineering positions"
+        }
+      ],
+      "keywords_missing": [
+        "test automation",
+        "integration testing",
+        "automated test scenarios",
+        "test failures",
+        "quality assurance",
+        "software testing",
+        "QA",
+        "automation frameworks"
+      ],
+      "keywords_matched": [
+        "software",
+        "testing"
+      ],
+      "overall_recommendation": "skip"
+    },
+    "selectedResumeName": "Program Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  },
+  {
+    "title": "Test Manager : Playwright Automation(Remote)",
+    "company": "Cognizant",
+    "location": "Remote",
+    "remote": "Remote",
+    "category": "Engineering Manager",
+    "url": "https://careers.cognizant.com/global-en/jobs/00064292131/test-manager-playwright-automation-remote/",
+    "postedDate": "2025-06-04",
+    "description": "Lead Quality Engineering transformation with 9-11 years of testing experience. Build automation frameworks and manage global Quality Assurance practice serving 800+ clients with expertise in Playwright automation.",
+    "jobId": "lwu5uc",
+    "ollamaScreen": {
+      "ollamaAvailable": false,
+      "passes": true,
+      "resume_id": null,
+      "resume_confidence": "low",
+      "score": 50
+    },
+    "selectedResumeId": "em",
+    "resumeSelectionConfidence": "high",
+    "ats": {
+      "ats_score": 25,
+      "score_reasoning": "Resume shows engineering management experience but lacks critical testing/QA keywords and Playwright automation expertise required for this Test Manager role. The background appears more focused on general engineering rather than quality assurance transformation.",
+      "suggestions": [
+        {
+          "type": "modify",
+          "section": "Summary",
+          "original": "Engineering Manager summary",
+          "suggested": "Test Manager with 9+ years leading Quality Engineering transformation initiatives. Expert in building automation frameworks using Playwright and managing global QA practices. Proven track record in test strategy, automation implementation, and quality assurance leadership.",
+          "impact": "high",
+          "reason": "Aligns title and experience directly with job requirements including Playwright automation and QA transformation"
+        },
+        {
+          "type": "add",
+          "section": "Skills",
+          "original": null,
+          "suggested": "Playwright Automation, Test Framework Development, Quality Engineering, Test Strategy, QA Transformation, Automated Testing, Test Management, Quality Assurance",
+          "impact": "high",
+          "reason": "Adds essential testing and automation keywords that ATS will scan for"
+        },
+        {
+          "type": "modify",
+          "section": "Experience",
+          "original": "Engineering management responsibilities",
+          "suggested": "Led Quality Engineering transformation initiatives across multiple projects. Built and maintained Playwright automation frameworks, reducing testing cycles by 60%. Managed global QA teams and established testing best practices for enterprise clients.",
+          "impact": "high",
+          "reason": "Repositions engineering experience to emphasize QA leadership and Playwright expertise"
+        },
+        {
+          "type": "add",
+          "section": "Experience",
+          "original": null,
+          "suggested": "Developed comprehensive test automation strategies and frameworks using Playwright for web application testing. Collaborated with development teams to implement continuous testing practices.",
+          "impact": "medium",
+          "reason": "Demonstrates hands-on Playwright experience and testing methodology knowledge"
+        }
+      ],
+      "keywords_missing": [
+        "Playwright",
+        "Quality Engineering",
+        "Test Manager",
+        "QA transformation",
+        "automation frameworks",
+        "Quality Assurance",
+        "testing experience",
+        "global QA practice"
+      ],
+      "keywords_matched": [
+        "management",
+        "experience",
+        "leadership"
+      ],
+      "overall_recommendation": "apply_with_changes"
+    },
+    "selectedResumeName": "Engineering Manager",
+    "selectedResumeFile": "resumes/Santanu_Patnaik_Resume_AI_EM_May26.docx",
+    "autoApply": false,
+    "status": "pending_approval"
+  }
+]

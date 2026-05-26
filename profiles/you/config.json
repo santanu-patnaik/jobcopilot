@@ -5,17 +5,19 @@
   },
   "companies": [
     { "id": "1", "name": "UnitedHealth Group (UHG)", "careerUrl": "https://careers.unitedhealthgroup.com", "enabled": true },
-    { "id": "2", "name": "Abbott", "careerUrl": "https://www.jobs.abbott/us/en", "enabled": true },
-    { "id": "3", "name": "Medtronic", "careerUrl": "https://www.medtronic.com/en-us/our-company/careers.html", "enabled": true },
-    { "id": "4", "name": "Cognizant", "careerUrl": "https://careers.cognizant.com/us-en/", "enabled": true }
+    { "id": "2", "name": "Abbott", "careerUrl": "https://www.jobs.abbott/us/en", "enabled": false },
+    { "id": "3", "name": "Medtronic", "careerUrl": "https://www.medtronic.com/en-us/our-company/careers.html", "enabled": false },
+    { "id": "4", "name": "Cognizant", "careerUrl": "https://careers.cognizant.com/us-en/", "enabled": false },
+	{ "id": "5", "name": "blueshieldca", "careerUrl": "https://careers.blueshieldca.com/", "enabled": true }
+	
   ],
   "jobSources": {
     "linkedin": { "enabled": true, "searchUrl": "https://www.linkedin.com/jobs/search/" },
     "indeed":   { "enabled": true, "searchUrl": "https://www.indeed.com/jobs" }
   },
   "jobCategories": [
-    { "id": "1", "label": "Quality Analyst", "keywords": ["quality analyst", "QA analyst", "quality assurance analyst"], "enabled": true },
-    { "id": "2", "label": "QA Engineer", "keywords": ["QA engineer", "quality assurance engineer", "test engineer"], "enabled": true },
+    { "id": "1", "label": "Quality Analyst", "keywords": ["quality analyst", "QA analyst", "quality assurance analyst"], "enabled": false },
+    { "id": "2", "label": "QA Engineer", "keywords": ["QA engineer", "quality assurance engineer", "test engineer"], "enabled": false },
     { "id": "3", "label": "Program Manager", "keywords": ["program manager", "PMO", "delivery manager", "portfolio manager"], "enabled": true },
     { "id": "4", "label": "Engineering Manager", "keywords": ["engineering manager", "QA manager", "test manager"], "enabled": true }
   ],
@@ -23,20 +25,20 @@
     {
       "id": "pm",
       "name": "Program Manager",
-      "file": "resumes/resume_pm.docx",
-      "keywords": ["program manager", "PMO", "delivery manager", "portfolio manager", "project manager", "technical program manager"]
+      "file": "resumes/Santanu_Patnaik_Resume_PM_PgM_UHG.docx",
+      "keywords": ["program manager", "PMO", "delivery manager", "portfolio manager",  "technical program manager"]
     },
     {
       "id": "em",
       "name": "Engineering Manager",
-      "file": "resumes/resume_em.docx",
-      "keywords": ["engineering manager", "tech lead", "QA manager", "test manager", "software development manager"]
+      "file": "resumes/Santanu_Patnaik_Resume_AI_EM_May26.docx",
+      "keywords": ["engineering manager", "tech lead", "software development manager", "AI Project Manager","project manager"]
     }
   ],
   "preferences": {
     "location": "Los Angeles, CA",
     "remote": true,
-    "experienceLevel": "entry-mid",
+    "experienceLevel": "mid-senior",
     "atsScoreThreshold": 75,
     "ollamaModel": "mistral",
     "emailResults": true,

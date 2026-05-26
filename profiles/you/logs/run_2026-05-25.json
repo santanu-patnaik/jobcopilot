@@ -1,0 +1,87 @@
+{
+  "runStart": "2026-05-25T05:00:33.800Z",
+  "runEnd": "2026-05-25T05:03:21.873Z",
+  "profile": "you",
+  "runLog": [
+    {
+      "ts": "2026-05-25T05:00:33.800Z",
+      "msg": "Starting scan — 2 companies, profile: You",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:00:33.800Z",
+      "msg": "Scanning UnitedHealth Group (UHG)...",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:01:07.888Z",
+      "msg": "  Found 10 jobs at UnitedHealth Group (UHG)",
+      "level": "success"
+    },
+    {
+      "ts": "2026-05-25T05:01:08.896Z",
+      "msg": "Scanning blueshieldca...",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:01:22.394Z",
+      "msg": "  Found 0 jobs at blueshieldca",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:01:23.401Z",
+      "msg": "Discovery complete — 10 total jobs found",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:01:23.402Z",
+      "msg": "Cache filter — 2 new jobs (8 already seen)",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:01:23.402Z",
+      "msg": "Ollama screening 2 new jobs...",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:02:08.520Z",
+      "msg": "  PASS — Senior Manager, Software Engineering - Remote or Hybrid in MN and DC @ UnitedHealth Group (UHG) → resume: em (high)",
+      "level": "success"
+    },
+    {
+      "ts": "2026-05-25T05:02:48.965Z",
+      "msg": "  PASS — Lead AI/ML Engineer (NLP) - Remote @ UnitedHealth Group (UHG) → resume: em (high)",
+      "level": "success"
+    },
+    {
+      "ts": "2026-05-25T05:02:49.475Z",
+      "msg": "Ollama screening complete — 2 qualified jobs",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:02:49.475Z",
+      "msg": "Running Claude ATS scoring on 2 jobs...",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:02:49.475Z",
+      "msg": "  Scoring: Senior Manager, Software Engineering - Remote or Hybrid in MN and DC @ UnitedHealth Group (UHG) with \"Engineering Manager\" resume",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:03:05.460Z",
+      "msg": "  Score: 45/100 — needs review",
+      "level": "warn"
+    },
+    {
+      "ts": "2026-05-25T05:03:06.465Z",
+      "msg": "  Scoring: Lead AI/ML Engineer (NLP) - Remote @ UnitedHealth Group (UHG) with \"Engineering Manager\" resume",
+      "level": "info"
+    },
+    {
+      "ts": "2026-05-25T05:03:20.858Z",
+      "msg": "  Score: 72/100 — needs review",
+      "level": "warn"
+    }
+  ]
+}

@@ -284,18 +284,47 @@ Respond ONLY with valid JSON, no markdown:
 
 // ── Claude ATS Scoring ────────────────────────────────────────────────────────
 
+async function extractResumeText(resumeFile, resumeName) {
+  if (!fs.existsSync(resumeFile)) {
+    return null; // file not placed yet
+  }
+
+  // Try mammoth for proper docx extraction
+  try {
+    const mammoth = await import("mammoth");
+    const result  = await mammoth.extractRawText({ path: resumeFile });
+    const text    = result.value.trim();
+    if (text.length > 50) return text.slice(0, 4000);
+  } catch { /* mammoth not installed or failed */ }
+
+  // Fallback: read as binary and extract printable ASCII
+  try {
+    const raw  = fs.readFileSync(resumeFile);
+    const text = raw.toString("utf8").replace(/[^\x20-\x7E\n]/g, " ")
+      .replace(/\s{3,}/g, " ").trim();
+    if (text.length > 50) return text.slice(0, 4000);
+  } catch { /* ignore */ }
+
+  return null;
+}
+
 async function claudeATS(job, resumeConfig, apiKey, profileName) {
   const resumeFile = path.join(PROFILES, profileName, resumeConfig.file);
+  const rawText    = await extractResumeText(resumeFile, resumeConfig.name);
 
-  // Read resume text — if docx not parseable as text, use placeholder
-  let resumeText = `[Resume: ${resumeConfig.name}]`;
-  try {
-    if (fs.existsSync(resumeFile)) {
-      const raw = fs.readFileSync(resumeFile);
-      // Basic text extraction — works for text-heavy docx
-      resumeText = raw.toString("utf8").replace(/[^\x20-\x7E\n]/g, " ").slice(0, 3000);
-    }
-  } catch { /* use placeholder */ }
+  if (!rawText) {
+    // Resume file missing — skip ATS, mark for manual review
+    return {
+      ats_score: null,
+      score_reasoning: `Resume file not found at ${resumeConfig.file}. Please add your resume to profiles/${profileName}/resumes/`,
+      suggestions: [],
+      keywords_missing: [],
+      keywords_matched: [],
+      overall_recommendation: "resume_missing",
+    };
+  }
+
+  const resumeText = rawText;
 
   const prompt = `You are an ATS (Applicant Tracking System) expert and resume coach.
 
@@ -478,14 +507,19 @@ async function runProfile(profileName) {
       job.selectedResumeName = resume.name;
       job.selectedResumeFile = resume.file;
 
-      const autoApply = ats.ats_score >= threshold;
-      job.autoApply = autoApply;
-      job.status    = "pending_approval";
-
-      addLog(
-        `  Score: ${ats.ats_score}/100 — ${autoApply ? "AUTO-APPLY candidate" : "needs review"}`,
-        ats.ats_score >= threshold ? "success" : "warn"
-      );
+      if (ats.overall_recommendation === "resume_missing") {
+        job.autoApply = false;
+        job.status    = "resume_missing";
+        addLog(`  ⚠ Resume file missing for "${resume.name}" — add file to profiles/${profileName}/resumes/`, "warn");
+      } else {
+        const autoApply = ats.ats_score >= threshold;
+        job.autoApply = autoApply;
+        job.status    = "pending_approval";
+        addLog(
+          `  Score: ${ats.ats_score}/100 — ${autoApply ? "AUTO-APPLY candidate" : "needs review"}`,
+          ats.ats_score >= threshold ? "success" : "warn"
+        );
+      }
     } catch (err) {
       addLog(`  ATS error for ${job.title}: ${err.message}`, "error");
       job.ats   = null;
@@ -586,6 +620,7 @@ async function sendEmailDigest(summary) {
 async function main() {
   const targetProfile = process.argv[2] || null;
   const testMode      = process.argv.includes("--test");
+  const rescoreMode   = process.argv.includes("--rescore");
   const testCompany   = process.argv[process.argv.indexOf("--test") + 1] || null;
 
   // ── Test mode: run one company and print raw result ──
@@ -606,6 +641,52 @@ async function main() {
     const jobs = await scanCompany(company, config, apiKey, profileName);
     console.log(`\n[TEST] Jobs found: ${jobs.length}`);
     console.log(JSON.stringify(jobs, null, 2));
+    return;
+  }
+
+  // ── Rescore mode: re-run ATS on queue jobs with 0 or missing scores ──
+  if (rescoreMode) {
+    const profileName = targetProfile || "you";
+    const profileDir  = path.join(PROFILES, profileName);
+    const config      = readJSON(path.join(profileDir, "config.json"));
+    const apiKey      = getAnthropicKey();
+    const queuePath   = path.join(profileDir, "approval_queue.json");
+    const queue       = readJSON(queuePath, []);
+    const threshold   = config.preferences?.atsScoreThreshold || 75;
+
+    const toRescore = queue.filter(j => !j.ats?.ats_score || j.ats.ats_score === 0);
+    console.log(`\nRescore mode — ${toRescore.length} jobs with missing/zero scores\n`);
+
+    for (const job of toRescore) {
+      const resume = config.resumes.find(r => r.id === job.selectedResumeId) || config.resumes[0];
+      console.log(`Scoring: ${job.title} @ ${job.company} with "${resume.name}" resume`);
+      try {
+        const ats = await claudeATS(job, resume, apiKey, profileName);
+        job.ats = ats;
+        job.selectedResumeName = resume.name;
+        job.selectedResumeFile = resume.file;
+        job.autoApply = ats.ats_score >= threshold;
+        job.status    = "pending_approval";
+        console.log(`  → Score: ${ats.ats_score}/100 (${ats.overall_recommendation})`);
+      } catch (err) {
+        console.log(`  → Error: ${err.message}`);
+      }
+      await sleep(1000);
+    }
+
+    // Save updated queue
+    writeJSON(queuePath, queue);
+
+    // Also update results.json
+    const resultsPath = path.join(profileDir, "results.json");
+    const results     = readJSON(resultsPath, []);
+    for (const job of toRescore) {
+      const idx = results.findIndex(r => r.jobId === job.jobId);
+      if (idx !== -1) results[idx] = job;
+    }
+    writeJSON(resultsPath, results);
+
+    console.log(`\nRescore complete — ${toRescore.length} jobs updated.`);
     return;
   }
 

@@ -37,7 +37,45 @@ const store = {
   },
 };
 
-// Fetch config.json from the public folder
+// ── API helpers ──
+const API = {
+  async get(path) {
+    try {
+      const res = await fetch(`/api${path}`);
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      return await res.json();
+    } catch { return null; }
+  },
+  async post(path, body) {
+    try {
+      const res = await fetch(`/api${path}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      return await res.json();
+    } catch { return null; }
+  },
+  async put(path, body) {
+    try {
+      const res = await fetch(`/api${path}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+      });
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      return await res.json();
+    } catch { return null; }
+  },
+  async del(path) {
+    try {
+      const res = await fetch(`/api${path}`, { method: "DELETE" });
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      return await res.json();
+    } catch { return null; }
+  },
+};
 async function loadFileConfig() {
   try {
     const res = await fetch(CONFIG_FILE_PATH + "?t=" + Date.now()); // cache-bust
@@ -198,34 +236,37 @@ export default function App() {
     { id: "spouse", name: "Spouse" },
   ]);
 
-  // ── Applications tracker ──
-  const [applications, setApplications] = useState(() => store.get(APPLICATIONS_KEY) || []);
-  const [approvalQueue, setApprovalQueue] = useState(() => store.get("jobpilot-approval") || []);
-  const [lastRun, setLastRun] = useState(() => store.get(LAST_RUN_KEY) || null);
+  // ── Applications tracker — loaded from API ──
+  const [applications, setApplications] = useState([]);
+  const [approvalQueue, setApprovalQueue] = useState([]);
+  const [lastRun, setLastRun] = useState(null);
   const [notesDraft, setNotesDraft] = useState({});
   const [editingNotes, setEditingNotes] = useState(null);
+  const [apiReady, setApiReady] = useState(false);
 
-  // Persist applications
-  useEffect(() => { store.set(APPLICATIONS_KEY, applications); }, [applications]);
-  useEffect(() => { store.set("jobpilot-approval", approvalQueue); }, [approvalQueue]);
-  useEffect(() => { store.set(PROFILES_KEY, { active: activeProfile }); }, [activeProfile]);
+  // Load from API when profile changes
+  useEffect(() => {
+    async function loadProfileData() {
+      setApiReady(false);
+      const [queue, apps, run] = await Promise.all([
+        API.get(`/profiles/${activeProfile}/queue`),
+        API.get(`/profiles/${activeProfile}/applications`),
+        API.get("/lastrun"),
+      ]);
+      if (queue)  setApprovalQueue(queue);
+      if (apps)   setApplications(apps);
+      if (run)    setLastRun(run);
+      setApiReady(true);
+    }
+    loadProfileData();
+  }, [activeProfile]);
 
   // Status options for tracker
   const STATUS_OPTIONS = ["Pending", "Applied", "Interview", "Offer", "Rejected"];
   const STATUS_COLORS  = { Pending: "#888", Applied: "#2980b9", Interview: "#1a9e75", Offer: "#27a845", Rejected: "#c0392b" };
 
-  const updateAppStatus = (appId, status) => {
-    setApplications(prev => prev.map(a => a.id === appId ? { ...a, status } : a));
-  };
-
-  const updateAppNotes = (appId, notes) => {
-    setApplications(prev => prev.map(a => a.id === appId ? { ...a, notes } : a));
-    setEditingNotes(null);
-  };
-
-  const approveJob = (job, resumeOverride) => {
+  const approveJob = async (job, resumeOverride) => {
     const app = {
-      id: genId(),
       profileId: activeProfile,
       jobId: job.jobId || genId(),
       title: job.title,
@@ -243,14 +284,29 @@ export default function App() {
       notes: "",
       autoApply: job.autoApply || false,
     };
-    setApplications(prev => [app, ...prev]);
-    setApprovalQueue(prev => prev.filter(j => j.jobId !== job.jobId));
-    addToast(`Application logged: ${job.title} @ ${job.company}`, "success");
+    const saved = await API.post(`/profiles/${activeProfile}/applications`, app);
+    if (saved) {
+      setApplications(prev => [saved, ...prev]);
+      setApprovalQueue(prev => prev.filter(j => j.jobId !== job.jobId));
+      addToast(`Application logged: ${job.title} @ ${job.company}`, "success");
+    }
   };
 
-  const dismissJob = (jobId) => {
+  const dismissJob = async (jobId) => {
+    await API.del(`/profiles/${activeProfile}/queue/${encodeURIComponent(jobId)}`);
     setApprovalQueue(prev => prev.filter(j => j.jobId !== jobId));
     addToast("Job dismissed from queue", "info");
+  };
+
+  const updateAppStatus = async (appId, status) => {
+    await API.put(`/profiles/${activeProfile}/applications/${appId}`, { status });
+    setApplications(prev => prev.map(a => a.id === appId ? { ...a, status } : a));
+  };
+
+  const updateAppNotes = async (appId, notes) => {
+    await API.put(`/profiles/${activeProfile}/applications/${appId}`, { notes });
+    setApplications(prev => prev.map(a => a.id === appId ? { ...a, notes } : a));
+    setEditingNotes(null);
   };
 
   // ── Load config: localStorage first, then config.json ──
@@ -619,9 +675,9 @@ Return ONLY valid JSON, nothing else.`,
           </button>
           <button className={`tab ${tab === "approval" ? "active" : ""}`} onClick={() => setTab("approval")}>
             <Icons.Check /> Approval Queue
-            {approvalQueue.filter(j => j.profileId === activeProfile).length > 0 && (
+            {approvalQueue.filter(j => !j.profileId || j.profileId === activeProfile).length > 0 && (
               <span className="tab-count" style={{ background: "var(--warning, #f39c12)" }}>
-                {approvalQueue.filter(j => j.profileId === activeProfile).length}
+                {approvalQueue.filter(j => !j.profileId || j.profileId === activeProfile).length}
               </span>
             )}
           </button>
@@ -777,7 +833,7 @@ Return ONLY valid JSON, nothing else.`,
                 </div>
               </div>
 
-              {approvalQueue.filter(j => j.profileId === activeProfile).length === 0 ? (
+              {approvalQueue.filter(j => !j.profileId || j.profileId === activeProfile).length === 0 ? (
                 <div className="card">
                   <div className="card-body" style={{ textAlign: "center", padding: 40, color: "var(--text-muted)" }}>
                     <div style={{ fontSize: 32, marginBottom: 12 }}>✓</div>
@@ -786,7 +842,7 @@ Return ONLY valid JSON, nothing else.`,
                   </div>
                 </div>
               ) : (
-                approvalQueue.filter(j => j.profileId === activeProfile).map(job => (
+                approvalQueue.filter(j => !j.profileId || j.profileId === activeProfile).map(job => (
                   <div className="card" key={job.jobId} style={{ marginBottom: 12 }}>
                     <div className="card-header">
                       <span className="card-title">{job.title}</span>
@@ -841,6 +897,18 @@ Return ONLY valid JSON, nothing else.`,
                         <button className="btn btn-sm btn-primary" onClick={() => approveJob(job, null)}>
                           <Icons.Check /> Log Application
                         </button>
+                        {job.ats?.ats_score >= 75 && (
+                          <button
+                            className="btn btn-sm"
+                            style={{ background: "var(--success, #1a9e75)", color: "#fff", border: "none" }}
+                            onClick={() => {
+                              approveJob(job, null);
+                              addToast(`Auto-apply queued for ${job.title} — run npm run apply`, "success");
+                            }}
+                          >
+                            ⚡ Auto-Apply
+                          </button>
+                        )}
                       </div>
                     </div>
                   </div>
